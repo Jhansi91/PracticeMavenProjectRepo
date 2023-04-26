@@ -34,12 +34,6 @@ public class Parameters
 				WebDriverManager.firefoxdriver().setup();
 				driver=new FirefoxDriver();
 			}
-			else
-			{
-				WebDriverManager.chromedriver().setup();
-				driver=new ChromeDriver();
-			}
-			
 			driver.get(URL);
 			
 		}
